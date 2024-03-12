@@ -15,4 +15,6 @@ return require('packer').startup(function(use)
   use ( 'nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' } )
   use { "folke/tokyonight.nvim", as = "tokyonight"  }
   use { "craftzdog/solarized-osaka.nvim", as = "solarized-osaka" }
-end)
+  use { "Mofiqul/dracula.nvim", as = "dracula" }
+  use ("theprimeagen/harpoon")
+ end)
